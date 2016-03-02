@@ -1,0 +1,14 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Д/З Пасечник Максим</title>
+<style>
+.text {text-align: center;}
+</style>
+</head>
+<body>
+<div class="text">
+<p style="color:blue"><font face="Arial">Параграф с текстом =)</font></p>
+</div>
+</body>
+</html>
