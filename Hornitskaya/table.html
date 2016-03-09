@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		table{
+			border: 3px groove green;
+			width: 300px;
+			border-spacing: 0.2px; 
+			border-radius: 3px;
+		}
+		table tr{
+			border-radius: 3px;
+			border: 3px groove green;
+		}
+		tr.r-4{
+			height: 160px
+		}
+		td{
+			width: 50px;
+			border: 3px groove green;
+			border-radius: 3px;
+		}
+		td.d-1{
+			width: 35%
+		}
+		td.d-2{
+			width: 40%
+		}
+		td.d-3{
+			width: 25%
+		}
+		td.d-in{
+			padding: 0px;
+			border: 0px;
+		}
+		table.table-in1{
+			border-collapse: collapse;			
+		}
+	</style>
+	<title>Table</title>
+</head>
+<body>
+	<table>
+		<tr> 
+			<td class="d-1" rowspan="2" colspan="2">&nbsp</td>
+			<td class="d-2" rowspan="2" colspan="2">&nbsp</td>
+			<td class="d-3" colspan="2">&nbsp</td>	
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp</td>	
+		</tr>
+		<tr> 
+			<td class="d-in" colspan="6" >
+				<table class="table-in1">
+					<tr>
+						<td style="width:35%;">&nbsp</td>
+						<td style="width:1%;"></td>
+						<td style="width:21%;">&nbsp</td>
+						<td style="width:17%;">&nbsp</td>
+						<td style="width:25%;">&nbsp</td>
+					</tr>
+				</table>
+			</td>			
+		</tr>
+		<tr class="r-4"> 
+			<td colspan="2">&nbsp</td>
+			<td colspan="2">&nbsp</td>
+			<td colspan="2">&nbsp</td>			
+		</tr>
+		<tr> 
+			<td colspan="2">&nbsp</td>
+			<td rowspan="2" colspan="2">&nbsp</td>
+			<td rowspan="2" colspan="2">&nbsp</td>	
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp</td>		
+		</tr>
+	</table>	
+</body>
+</html>
