@@ -1,0 +1,41 @@
+
+.blockRed{
+	width: 1002px;
+	height: 135px;
+	margin: auto;
+}
+.blockRed1{
+	width: 1002px;
+	height: 350px;
+	
+	margin: auto;
+}
+.blockRed2{
+	width: 450px;
+	height: 137px;
+	border: solid white;
+	margin: auto;
+	float: left;
+	border-style:dotted;
+	background: rgba(0, 0, 0, 0.56);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+.blockRed3{
+	width: 452px;
+	height: 296px;
+	
+	margin: auto;
+	float: left;
+	background: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+.blockRed4{
+	width: 452px;
+	height: 118px;
+	
+	padding-top: 0px;
+    margin-top: -143px;
+    margin-bottom: 0px;
+    margin-left: 21px;
+	float: left;
+}
