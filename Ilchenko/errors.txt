@@ -1,4 +1,4 @@
-Мое домашнее задание (1).html
+﻿Мое домашнее задание (1).html
 
 - Всегда закрывай скобки и теги
 - У атрибута target нет значения _blanck ) просто _blank
@@ -20,3 +20,16 @@
 - пробелы в id лучше заменить на _ а в ссылках на %20 может вызвать большую боль )
 - вот этих путей C:\Users\SWARZ\Documents\GitHub\FRB_Student_02.29\Ilchenko\02_Images.2.1.pdf и C:\Users\SWARZ\Documents\GitHub\FRB_Student_02.29\Ilchenko\02_Images.2.1.pdf у меня нет. 
 всегда указывайте абсолютные пути и перемещайте файлы вместе с проектом.
+
+HomeWork6 CSS
+1. как понять                  <li>	
+					<a href="#"> - ЧТО ЭТО ? зачем ? 
+   						<div class="dropdown dropbtn">ГЛАВНАЯ
+  							<div class="dropdown-content">
+    								<a href="#">Link 1</a>
+   								<a href="#">Link 2</a>
+    								<a href="#">Link 3</a>
+  							</div>
+						</div>
+   					</a> - ???
+				</li>
