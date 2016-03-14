@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>drop_out_menu</title>
+  <style type="text/css">
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+  }
+  </style>
+</head>
+ <body>
+   <ul class="menu">
+    <li><a href=#>HOME</a>
+        <ul class="submenu">
+
+        </ul>
+    </li>
+    <li><a href=#>About us</a>
+        <ul class="submenu">
+            <li><a href=#>history</a></li>
+            <li><a href=#>now </a></li>
+            <li><a href=#>future </a></li>
+        </ul>
+    </li>
+    <li><a href=#>Service</a>
+        <ul class="submenu">
+            <li><a href=#>service1</a></li>
+            <li><a href=#>service2</a></li>
+            <li><a href=#>service3</a></li>
+        </ul>
+    </li>
+    <li><a href=#>Products</a>
+        <ul class="submenu">
+            <li><a href=#>Product 1</a></li>
+            <li><a href=#>Product 2</a></li>
+            <li><a href=#>Product 3</a></li>
+        </ul>
+    </li>
+    <li><a href=#>Follow us on</a>
+        <ul class="submenu">
+            <li><a href=#>twitter 5</a></li>
+            <li><a href=#>FB 5</a></li>
+            <li><a href=#>Linkedin 5</a></li>
+        </ul>
+    </li>
+</ul>
+ </body>
+ </html>
