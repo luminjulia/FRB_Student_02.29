@@ -5,12 +5,21 @@
 	margin:0px;
 	padding:0px;
 	list-style:none;
+	/* магия */
+	position: relative;
+	left:50%;
+	float: left;
+	/* конец магии */
 }
 .menu-item {
 	float:left;
 	margin:0 5px 0 5px;
 	padding:0px;
 	background: #E1E1E1;
+	/* вторая часть магии */
+	position: inherit;
+	left:-50%;
+	/* магия закончилась */
 }
 .menu-item a{
 	display:block;
