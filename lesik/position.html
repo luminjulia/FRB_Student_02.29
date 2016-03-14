@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+.f1,.f3{
+width:300px;
+height:400px;
+/*overflow:hidden;*/
+}
+
+.f13 {
+    position: absolute;
+    top: 200px;
+    left: -30px;
+    width:100px;
+    height:50px;
+    border:1px dotted red;
+    z-index: -1;
+}
+
+.f1{
+background:pink;
+float:left;
+border:2px solid green;
+border-bottom:3px dashed green;
+margin: 30px 0px 70px 30px;
+position: absolute;
+left: 600px;
+/*z-index:1;*/
+}
+
+.f2{
+background:orange;
+width:170px;
+height:100px;
+float:left;
+clear:both;
+margin:20px 0px 0px 50px;
+position: absolute;
+left: 720px;
+top: 150px;
+z-index: 2;
+
+}
+
+.f3{
+background:#3ad2dc;
+float:right;
+border:2px solid #2cb91c;
+border-right:3px dashed #2cb91c;
+position: absolute;
+margin: 30px 0px 0px;
+right: 400px;
+z-index: 1;
+}
+.f11,.f12,.f34,.f35,.f36 {
+width:100px;
+height:50px;
+border:1px dotted red;
+z-index: 1;
+}
+.f11 {
+position: relative;
+left: 1px;
+top: 60px;
+z-index: 2; 
+width: 70px;
+height: 70px;
+}
+
+.f12 {
+    position: relative;
+    left: 97px;
+    top: 270px;
+
+}
+
+
+.f34{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.f35{
+    position: absolute;
+    top: 330px;
+    left: 5px;
+}
+
+.f36{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    float: left;
+
+}
+
+.f12{
+margin:5px auto;
+}
+.f34,.f35,.f36{
+clear:both;
+}
+.f35{
+margin:5px 0;
+}
+</style>
+</head>
+<body>
+    <div class="f1">
+        <div class="f11" style="background:#d48585;">5</div>
+        <div class="f12" style="background:#808080;">2</div>
+        <div class="f13" style="background:#ba42d1;">3</div>
+    </div>
+    <div class="f3">
+        <div class="f34" style="background:#6b1b27;">4</div>
+        <div class="f35" style="background:#6ad898;">1</div>
+        <div class="f36" style="background:#1724b1;">6</div>
+    </div>
+    <div class="f2">7</div>
+   
+</body>
+</html>
