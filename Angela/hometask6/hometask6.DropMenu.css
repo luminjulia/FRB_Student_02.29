@@ -8,8 +8,9 @@
 	/* магия */
 	position: relative;
 	left:50%;
+		/* конец магии */
 	float: left;
-	/* конец магии */
+
 }
 .menu-item {
 	float:left;
@@ -18,8 +19,8 @@
 	background: #E1E1E1;
 	/* вторая часть магии */
 	position: inherit;
-	left:-50%;
-	/* магия закончилась */
+	right:50%;
+	/*магия закончилась */
 }
 .menu-item a{
 	display:block;
@@ -39,5 +40,6 @@
 .submenu-item {
 	margin:0px;
 	padding:0px;
+	width:100px;
 }
 
