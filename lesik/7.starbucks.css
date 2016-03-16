@@ -112,32 +112,33 @@ z-index: -1;
 margin-top: 121px;
 width: 100%;
 height: 1400px;
-border:1px groove #D9E5E0;
+/* border:1px groove #D9E5E0; */
 }
 
 .main-t{
-	position: static;
+	
 }
 
 .block1 {
 width: 100%;
-height: 600px;
-border:1px groove #D9E5E0;
+height: 660px;
+/* border:1px groove #D9E5E0; */
 background: url(http://bm.img.com.ua/berlin/storage/orig/1/ff/5059b04e1e145bf94ae98e80f03b2ff1.jpg) no-repeat;
 background-size: cover;
+position: static;
 }
 
 .block1-text {
 
 position: absolute;
-left: 970px;
+left: 920px;
 top: 100px;
 color: white;
 font-size: 50px;
 text-transform: uppercase;
 font-family: Helvetica, Futura, Metro, sans-serif;
 height: 400px; 
-width: 500px;
+width: 450px;
 font-style: italic;
 }
 
@@ -164,5 +165,251 @@ text-transform: none;
 	font-weight: bold;
 	float: left;
 	margin-top: 20px;
-	margin-left: 100px;
+	margin-left: 0px;
+	background-color: #0C351B;
+}
+
+.block2 {
+width: 100%;
+height: 170px;
+margin-top: 1px;
+/* border:1px groove #D9E5E0; */
+background-color: #151205;
+background-size: cover;
+position: static;
+}
+
+.rewards {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+.rewards-text {
+	position: absolute;
+	left: 600px;
+	top: 660px;
+	height: 60px;
+	width: 390px;
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+	margin-left: 10px;
+	margin-top: 46px;
+}
+
+.button-signin {
+	text-transform: none;
+	font-size: 14px;
+	float: right;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+	margin-top: 70px;
+	margin-left: 1030px;
+	color: white;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+}
+
+.button-joinnow {
+border: 2px solid #E3C383;
+text-transform: none;
+font-size: 14px;
+float: right;
+border-radius: 10px;
+	padding: 10px;
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+	margin-top: 70px;
+	margin-left: 1125px;
+	color: #151205;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	position: absolute;
+	background-color: #E3C383;
+}
+
+.block3 {
+width: 100%;
+height:660px;
+margin-top: 953px;
+/* border:1px groove #D9E5E0; */
+background: url(http://starbucks.com/assets/ca1947fe486447d7a8c737cbe70160a9.jpg);
+background-repeat: repeat;
+position: absolute;
+	z-index: -5;
+}
+
+.SPRINGTIME {
+position: absolute;
+margin-top: 100px;
+margin-left: 170px;
+}
+
+.block3-text {
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 240px;
+	height: 40px;
+	width: 330px;
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+}
+
+.block31-text {
+	position: absolute;
+	margin-left: 890px;
+	margin-top: 30px;
+	height: 60px;
+	width: 370px;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+}
+
+
+.block4 {
+width: 100%;
+height:660px;
+margin-top: 1614px;
+/* border:1px groove #D9E5E0; */
+background-color: black;
+position: absolute;
+	z-index: -5;
+}
+
+.block4-text {
+	position: absolute;
+	margin-left: 210px;
+	margin-top: 240px;
+	height: 40px;
+	width: 340px;
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+}
+
+.block41-text {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 30px;
+	height: 60px;
+	width: 370px;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+}
+	.block5 {
+width: 100%;
+height:660px;
+margin-top: 674px;
+/* border:1px groove #D9E5E0; */
+background-color:#EAF0E0;/* rgba(243, 255, 181, 0.85); */
+position: absolute;
+top: 1600px;
+	z-index: -1;
+}
+
+
+.block5-text {
+	position: absolute;
+	margin-left: 910px;
+	margin-top: 240px;
+	height: 40px;
+	width: 450px;
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+}
+
+
+.block51-text {
+	float: right;
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 40px;
+	height: 60px;
+	width: 450px;
+	color: rgb(165, 92, 141);
+	font-size: 16px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+}
+
+	.gift {
+		float: left;
+		position: absolute;
+		top: 150px;
+		left: 200px;
+	}
+
+
+	.phone {
+width: 100%;
+height:190px;
+margin-top: 674px;
+/*border:1px groove #D9E5E0;*/
+background-color:#EAF0E0;
+position: absolute;
+top: 2260px;
+z-index: -1;
+}
+
+.ph {
+	position: absolute;
+	top: -50px;
+	left: 150px;
+}
+
+.pay {
+	position: absolute;
+	top: 2940px;
+	left: 470px;
+	width: 550px;
+	height: 30px;
+	font-family: Helvetica, Futura, Metro, sans-serif;
+	font-style: italic;
+	font-size: 25px;
+	font-weight: bolder;
+	color: #141414;
+}
+
+.app-store{
+position: absolute;
+	top: 2980px;
+	left: 470px;
+	width: 205px;
+	height: 54px;
+		border: 1px solid #ACADA2;
+	border-radius: 6px;
+}
+
+.google-play {
+	position: absolute;
+	top: 2980px;
+	left: 700px;
+	width: 205px;
+	height: 54px;
+	border: 1px solid #ACADA2;
+	border-radius: 6px;
+}
+
+.social {
+width: 100%;
+height:190px;
+margin-top: 1674px;
+background-color:#DCDCDC;
+position: absolute;
+top: 1450px;
+z-index: -1;
 }
