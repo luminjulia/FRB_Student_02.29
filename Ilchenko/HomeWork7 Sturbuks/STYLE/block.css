@@ -1,0 +1,160 @@
+.blockRed{
+	width: 100%;
+	height: 39px;
+	margin: auto;
+	background-color: #006341;
+}
+
+
+.blockYellow{
+    width: 100%;
+    height: 105px;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    background-color: #f7f7f7;
+}
+
+.blockbrown{
+	width: 592px;
+    height: 34px;
+    margin: auto;
+    position: absolute;
+    top: 46px;
+    left: 179px;
+
+
+}
+
+.blockRed1{
+    width: 100%;
+    position: absolute;
+    height: 1000px;
+    margin: auto;
+    top: 141px;
+    
+    background: url(http://www.starbucks.com/assets/ca1947fe486447d7a8c737cbe70160a9.jpg);
+}
+
+.blockYellow1{
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    margin: auto;
+    border: solid green;
+    background: black;
+}
+
+.blockgreen{
+    width: 1348px;
+    position: relative;
+    margin: auto;
+    border: none;
+    background-color: rgb(44,44,44);
+}
+
+.blockgreen1{
+    width: 1347px;
+    position: absolute;
+    margin: auto;
+    border: none;
+    background: black;
+
+}
+
+.blockgreen2{
+    width: 329px;
+    height: 76px;
+    position: absolute;
+    top: 104px;
+    left: 55px;
+    margin: auto;
+
+}
+
+.blockgreen2{
+    width: 329px;
+    height: 76px;
+    position: absolute;
+    top: 104px;
+    left: 55px;
+    margin: auto;
+
+}
+
+
+/*text*/
+
+.blockgreen_text{
+    width: 443px;
+    position: absolute;
+    top: 24px;
+    left: 59px;
+    height: 64px;
+    z-index: 6;
+    margin: auto;
+
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif; 
+    margin: 0 auto;
+    color: white; 
+    font-style: italic; 
+    font-size: 28px;
+        
+}
+
+.blockgreen_text1{
+    width: 466px;
+    position: absolute;
+    top: 120px;
+    left: 59px;
+    height: 74px;
+    z-index: 5;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif; 
+    margin: 0 auto;
+    color: white; 
+    font-size: 13px;
+
+}
+.blockgreen_text2{
+    width: 466px;
+    position: absolute;
+    top: 182px;
+    left: 59px;
+    height: 74px;
+    z-index: 5;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif; 
+    margin: 0 auto;
+    color: white; 
+    font-size: 10px;
+        
+}
+.blockgreen_text3{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 9px;
+    color: white;
+    font-size: 15px;
+}
+
+/*buttons*/
+
+.button{
+    width: 163px;
+    border-radius: 7px;
+    border: 1px solid white;
+    position: absolute;
+    top: 248px;
+    left: 59px;
+    height: 36px;
+    z-index: 11;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    margin: 0 auto;
+    color: #8C8C8C;
+    font-size: 10px;
+
+}
+
+.button:hover {
+    background: orange;
+
+}
