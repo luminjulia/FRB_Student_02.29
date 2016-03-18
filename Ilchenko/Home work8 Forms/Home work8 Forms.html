@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>Home work8 Forms</title>
+			<link href="1.css" rel="stylesheet" type="text/css" />
+			
+	</head>
+    <body bgcolor="#9dbd2b">
+
+		<form>
+       <h3 class="heder">Step 1: Your details</h3>
+		<fieldset class="border">
+            <p>Name:</p>
+            <input class="input" type="text" placeholder="First and Last name" /> 
+        </fieldset>
+		<fieldset class="border">
+            <p>Email:</p>
+            <input class="input" type="text" placeholder="name@email" /> 
+        </fieldset>
+		<fieldset class="border">
+            <p>Phone:</p>
+            <input class="input" type="text" placeholder="+380" /> 
+        </fieldset>
+		
+		<h3 class="heder" style="margin-left: -233px;">Step 2: Delivery adress</h3>
+		<fieldset class="border2">
+				<p>Adress:</p>
+				<textarea class="textarea1" cols="10" rows="10" name="textarea"></textarea>
+		</fieldset>
+		<fieldset class="border">
+            <p style="margin-right: 54px;">Post code:</p>
+            <input class="input" type="text" /> 
+		</fieldset>
+		<fieldset class="border">
+            <p style="margin-right: 63px;">Country:</p>
+            <input class="input" type="text" /> 
+        </fieldset>
+		
+		<h3 class="heder" style="margin-left: -259px;">Step 3: Card details</h3>
+			<fieldset class="border3">
+				Card type:
+				<br>
+				Visa
+				<input class="input2" type="radio" name="card" value="card"  checked="checked"/>
+				AmEx
+				<input class="input2" type="radio" name="card" value="card"  checked="checked"/>
+				MasterCard
+				<input class="input2" type="radio" name="card" value="card"  checked="checked"/>
+			</fieldset>
+			
+			<fieldset class="border">
+            <p style="margin-right: 33px;">Card number:</p>
+            <input class="input" type="text" /> 
+			</fieldset>
+			<fieldset class="border">
+            <p style="margin-right: 28px;">Security code:</p>
+            <input class="input" type="text" /> 
+			</fieldset>
+			<fieldset class="border">
+            <p style="margin-right: 29px;">Name of card:</p>
+            <input class="input" type="text" placeholder="Введите имя карты, плиз" /> 
+			</fieldset>
+			<fieldset class="fieldset">
+			<input class="input3" type="button" name="button" value="Buy it!" onclick="alert('Здарова Нигер!!')" />
+			</fieldset>
+		</form>
+    </body>
+</html>
