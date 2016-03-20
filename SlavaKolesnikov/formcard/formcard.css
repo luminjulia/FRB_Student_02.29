@@ -1,4 +1,3 @@
-<style>
 html, body, h1, form, fieldset, legend, ol, li {
 	margin: 0;
 	padding: 0;
@@ -73,13 +72,13 @@ form#payment fieldset fieldset label {
 	width: auto;
 }
 form#payment label[for=visa] {
-	background-image: url(Card - Visa_32x32.gif);
+	background-image: url(visa.gif);
 }
 form#payment label[for=amex] {
-	background-image: url(Card - AmEx_32x32.gif);
+	background-image: url(amex.gif);
 }
 form#payment label[for=mastercard] {
-	background-image: url(Card - Mastercard_32x32.gif);
+	background-image: url(master.gif);
 }
 form#payment fieldset fieldset label:hover {
 	cursor: pointer;
@@ -125,6 +124,3 @@ form#payment button:hover {
 	background: #1e2506;
 	cursor: pointer;
 }
-
-
-</style>
