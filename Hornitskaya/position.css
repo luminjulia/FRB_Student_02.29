@@ -1,0 +1,134 @@
+@import "lib.css";
+body{
+	font-family: Monaco,'Courier New', monospace;
+    font-size: 18px;
+    color: #1e1111;
+    font-family: cursive;
+    background-color: #FAEBD7;
+}
+p, h1, h2{
+	float: left;
+	color: white;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+h3{
+	float: left;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: #1e1111;
+}
+.big{
+	width: 1200px;	
+	margin: 0 auto;
+}
+.bigbox-bgc{	
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+}
+.line{
+	background: grey;	
+	line-height: 25px;
+    padding-left: 70%;    
+    height: 25px;
+    margin: 0 auto;
+}
+.logo{
+	width: 70px;
+	height: 70px;
+	padding-left: 50px;		
+}
+.box-size{
+	width: 400px;
+	height: 400px;
+	background-color: black;}
+.for-picture, .for-inform{
+	padding: 15px;
+	margin-left: 30px;
+}
+.nav{
+	width: 250px;
+	height: 30px;
+}
+.header{
+	width: 1200px;
+	height: 80px;	
+}
+.bg{
+	width: 1200px;
+	height: 350px;
+	background-image: url(bg.png);	
+}
+.box-narrow{
+	width: 1200px;
+	height: 200px;
+}
+.box-2{
+	margin-left: 30px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.box-3{
+	position: relative;
+	left: -250px;	
+}
+.box-line{
+	margin-left: 150px;
+}
+.list{
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin: 5px 10px;	
+}
+.list ul li{
+	width: 150px;
+	height: 20px;
+	padding: 2px;	
+	margin-left: 5px;	
+}
+.buttom-menu ul li{
+	margin-right: 50px;	
+}
+.horizon ul{padding-top: 20px;}
+.horizon ul li{	
+	margin-left: 10px;
+	display: inline;		
+}
+.btn li{
+	width: 70px;
+	height: 30px;
+	background-color: grey;
+	border-radius: 3px;
+	padding: 3px;	
+}
+.starbucks{
+	top: 100px;
+	left: 1050px;
+}
+.starbucks p{
+	font: italic bold 25px Georgia,serif;
+	color: #531730;		
+}
+.micro{
+	font: bold 12px Georgia,serif;
+}
+.box-3 img{
+	width: 100px;
+	height: 60px;
+	border : 2px solid grey;
+	padding-left: 30px;	
+}
+.ss ul li a img{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #531730;
+	margin-left: 3px;	
+}
+.mini img{
+	width: 30px;
+	height: 10px;
+}
