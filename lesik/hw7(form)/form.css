@@ -1,0 +1,141 @@
+html{ background-color: #f3ffe6;
+  background-size: cover;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:00%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:#878778;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+	border-radius: 10px;
+}
+
+.create {
+color: white;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 33px;
+text-align: center;
+padding-bottom: 20px;
+margin-top: -10px;
+margin-bottom: 10px;
+border-bottom: solid 1px white;
+}
+
+.feedback-input {
+color:#3c3c3c;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 18px;
+border-radius: 12px;
+line-height: 22px;
+background-color: #fbfbfb;
+padding: 13px 13px 13px 54px;
+margin-bottom: 10px;
+width:100%;
+box-sizing: border-box;
+border: 3px solid white;
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #669900;
+	color: #669900;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+
+#name{
+	background-image: url(http://www.iconsdb.com/icons/preview/gray/add-user-xxl.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat; }
+
+#name:focus{
+	background-image: url(http://www.iconsdb.com/icons/preview/gray/add-user-xxl.png);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat; }
+
+#email{
+	background-image: url(http://www.iconsdb.com/icons/preview/gray/email-xxl.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat; }
+
+#phone{
+	background-image: url(http://www.iconsdb.com/icons/preview/gray/phone-39-xxl.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat; }
+
+#password{
+	background-image: url(http://www.iconsdb.com/icons/preview/gray/key-xxl.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+.checkbox {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 15px;
+color: white;
+}
+
+span>a {
+	color: #CCFF99;
+	font-weight: bolder;
+}
+
+#button-green{
+	font-family: Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: none;
+	border-radius: 12px;
+	cursor:pointer;
+	background-color: #669900;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+  margin-top:40px;
+  font-weight:700;
+}
+
+#button-green:hover{
+	background-color: white;
+	color:#669900; }
+
+.submit:hover {
+  width:100%;
+  background-color:white;
+}
