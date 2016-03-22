@@ -1,0 +1,148 @@
+﻿body {
+	margin:0px;
+	background-color:#FCFAEA;
+}
+/*HEADER*/
+#header{
+	background-image:url(images/bg-turq.jpg);
+	height:150px;
+}
+#image-logo {
+	margin-left:150px;
+}
+#top-menu {
+	float:right;
+	margin-right:100px;
+}
+.top-menu {
+	width:100px;
+	height:100px;
+	float:left;
+	margin:10px 20px;
+	background-image: url(images/nav-main.png);
+}
+#bg-image1 {
+	background-position-x:2%;
+}
+#bg-image2 {
+	background-position-x:33%;
+}
+#bg-image3 {
+	background-position-x:67%;
+}
+#bg-image4 {
+	background-position-x:100%;
+}
+#bg-image1:hover {
+	background-position-y:53%;
+}
+#bg-image2:hover {
+	background-position-y:53%;
+}
+#bg-image3:hover {
+	background-position-y:53%;
+}
+#bg-image4:hover {
+	background-position-y:53%;
+}
+
+/*SECTION*/
+#section {
+	width:100%;
+}
+#section1 {
+	background-image:url(images/bg-turq.jpg);
+	height:480px;
+	text-align:center;
+}
+#section2 {
+	height:50px;
+	width:100%;
+	background-image:url(images/bg-paper-top.png), url(images/bg-turq.jpg);
+}
+#section3 {
+	text-align:center;
+}
+#section4 {
+	height:200px;
+	width:1000px;
+	margin:0 auto;
+}
+.inf-block {
+	width:320px;
+	height:100%;
+	float:left;
+	background-image:url(images/big-home-links.png);
+}
+#bg-block2 {
+	background-position-x:50%;
+}
+#bg-block3 {
+	background-position-x:100%;
+}
+#bg-block1:hover {
+	background-position-y:112%;
+}
+#bg-block2:hover {
+	background-position-y:112%;
+}
+#bg-block3:hover {
+	background-position-y:112%;
+}
+#section5 {
+	width:900px;
+	margin:0 auto;
+	height:50px;
+}
+#facebook {
+	color:#453C37;
+	font-size:18px;
+}
+
+
+/*FOTTER*/
+#footer {
+	background-image:url(images/bg-footer.jpg);
+	width:100%;
+	height:260px;
+	color:#453C37;
+	font-family:Arial sans-serif;
+}
+#footer-inside {
+	width:1200px;
+	margin:0 auto;
+	height:215px;
+}
+.footer-div12 {
+	float:left;
+	width:20%;
+	margin:50px 10px 0px 50px;
+}
+.footer-div345 {
+	width:15%;
+	float:left;
+	margin:50px 10px 0px 10px;
+}
+.text-decoration {
+	font-size:14px;
+}
+a {
+	text-decoration:none;
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+h3 {
+	margin:0px 0px 10px 0px;
+}
+a:hover {
+	color:#453C37;
+}
+#copyright {
+	color:#D6CABB;
+	border-top:1px dotted  #D0CDB8;
+	width:100%;
+	font-size:14px;
+	float:left;
+	text-align:center;
+}
