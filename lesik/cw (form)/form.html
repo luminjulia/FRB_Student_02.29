@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+p {
+	margin-top: 32px;
+}
+
+.login {
+	border: none; 
+	border-bottom: 1px dotted black; 
+	font-family: monospace, sans-serif; 
+	font-weight: bolder; padding: 10px; 
+	width: 200px; 
+	height: 25px; 
+	background-color: aqua;
+	text-shadow: 1px 1px 1px black, 0 0 1em #F8F7F2;
+}
+
+.password {
+	font-family: monospace, sans-serif; 
+	font-weight: bolder; padding: 10px; 
+	border: none; 
+	width: 200px; 
+	height: 25px; 
+	background-color: aqua;
+		text-shadow: 1px 1px 1px black, 0 0 1em #F8F7F2;
+}
+
+form {
+width: 400px; 
+height: 200px
+}
+
+ p:hover {
+transform: rotate(90deg);
+}
+
+.submit {
+border: none;
+font-family: monospace, sans-serif; 
+font-weight: bolder; 
+background: none;
+text-shadow: 0px 1px black, 0 0 1em #F8F7F2;
+}
+
+span {
+font-family: monospace, sans-serif; 
+font-weight: bolder; 
+position: absolute; 
+top: 97px; 
+left: 209px; 
+width: 92px; 
+height: 92px; 
+background: -webkit-radial-gradient(45px 45px, circle contain, aqua, blue); 
+border-top-right-radius: 7px; 
+border-bottom-right-radius: 7px;
+text-shadow: 0px 1px black, 0 0 1em #F8F7F2;
+text-align: center;
+}  
+
+
+	</style>
+</head>
+<body>	<form>
+		<h1>OTHER FORM</h1> <br>
+		<input class="login" type="text" name="login" placeholder="Your login" size="15" value=""/>	<br/>
+		<input class="password" type="password" name="password" placeholder="Enter password" size="15" value=""/> <br/>
+		<span><p><input class="submit" type="submit" name="submit"value="Enter"></p></span>
+	</form>
+</body>
+</html>
