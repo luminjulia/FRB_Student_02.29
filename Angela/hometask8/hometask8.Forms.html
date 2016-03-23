@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Forms</title>
+		<link href="hometask8.Forms.css" rel="stylesheet">
+	</head>
+	<body>
+		<form method="post" action="" name="card-details" id="form-blanc">
+			<fieldset class="style">
+				<legend class="legend">Step 1: Your details</legend><br/>
+				<div class="border">
+					<p>Name</p>
+					<input type="text" name="name" placeholder="First and last name" class="input-text height" required="" /><br/></div>
+				<div class="border">
+					<p>Email</p>
+					<input type="text" name="email" placeholder="example@domian.com" class="input-text height"/><br/></div>
+				<div class="border">
+					<p>Phone</p>
+					<input type="tel" name="phone" pattern="0[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="0xx-xxx-xx-xx" class="input-text height"/></div>
+			</fieldset>
+
+			<fieldset class="style">
+				<legend class="legend">Step 2: Delivery address</legend><br/>
+				<div  id="address" class="border">
+					<p id="address-p">Address</p>
+					<textarea cols="8" rows="8" name="address" class="input-text" maxlength="100"></textarea><br/></div>
+				<div class="border">
+					<p>Post code</p>
+					<input type="text" name="post_code" class="input-text height"/><br/></div>
+				<div class="border">
+					<p>Country</p>
+					<input type="text" name="country" class="input-text height"/></div>
+			</fieldset>
+
+			<fieldset class="style">
+				<legend class="legend">Step 3: Card details</legend><br/>
+				<div class="border" id="card-type">
+					<p id="card-type-p">Card type</p><br/>
+					<div id="card-image">
+						<input type="radio" name="card_type" value="visa"/>
+							<img src="images/Visa.jpg" alt="Not found" title="Visa">Visa
+						<input type="radio" name="card_type" value="amex"/>
+							<img src="images/AmEx.jpg" alt="Not found" title="AmEx">AmEx
+						<input type="radio" name="card_type" value="mastercard"/>
+							<img src="images/Mastercard.jpg" alt="Not found" title="Mastercard">Mastercard
+					</div>
+				</div>
+				<div class="border">
+					<p>Card number</p>
+					<input type="text" name="card_number" class="input-text height"/><br/></div>
+				<div class="border">
+					<p>Security code</p>
+					<input type="text" name="security_code" class="input-text height"/><br/></div>
+				<div class="border">
+					<p>Name on card</p>
+					<input type="text" name="name_on_card" placeholder="Exact name as on the card" class="input-text height"/></div>
+			</fieldset>
+
+			<input type="submit" name="submit" value="BUY IT !" id="submit"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+﻿body {
+	background-color: #8FAF1F;
+}
+#form-blanc {
+	width:410px;
+	margin:0 auto;
+	text-align:center;
+}
+.style {
+	border:none;
+	font-family:Verdana Arial sans-serif;
+	font-size:18px;
+	text-align:left;
+}
+.legend {
+	font-size:22px;
+	font-weight:bold;
+	color:#273104;
+}
+.border {
+	border:2px solid white;
+	width:400px;
+	height:50px;
+	margin-bottom:5px;
+	border-radius:5px;
+	background-color:#CCE287;
+}
+#address {
+	height:170px;
+}
+#card-type {
+	height:100px;
+}
+img {
+	width:30px;
+}
+.input-text {
+	width:200px;
+	border-radius:5px;
+	font-size:16px;
+	font-style:italic;
+	margin:10px 60px 0px 0px;
+	float:right;
+	border:1px solid #73BB13;
+	box-shadow: 3px 3px 5px #8AB353;
+}
+.height {
+	height:25px;
+}
+p {
+	margin:14px 0px 0px 20px;
+	float:left;
+	font-size:18px;
+	letter-spacing:-1px;
+	color:#273104;
+}
+#address-p {
+	margin:70px 0px 0px 20px;
+}
+#card-type-p {
+	float:initial;
+}
+#card-image {
+	width:330px;
+	margin:0 auto;
+}
+#submit {
+	padding:5px 20px;
+	border:1px solid #273104;
+	font-size:16px;
+	background-color:#273104;
+	color:white;
+	border-radius:15px;
+}
