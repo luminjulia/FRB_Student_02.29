@@ -135,27 +135,27 @@ nav>ul>li:nth-child(4)>a:hover{
     background: url("images/big-home-links.png") no-repeat;
 }
 
-.content-wrap>ul>li:nth-child(1) a{
+.content-wrap>ul li:nth-child(1) a{
     width: 323px;
 }
 
-.content-wrap>ul>li:nth-child(1) a:hover{
+.content-wrap>ul li:nth-child(1) a:hover{
     background-position: 0 -200px;
 }
 
-.content-wrap>ul>li:nth-child(2) a{
+.content-wrap>ul li:nth-child(2) a{
     background-position: -323px 0;
     width: 318px;
 }
 
-.content-wrap>ul>li:nth-child(2) a:hover{
+.content-wrap>ul li:nth-child(2) a:hover{
     background-position: -323px -200px;
 }
-.content-wrap>ul>li:nth-child(3) a{
+.content-wrap>ul li:nth-child(3) a{
     background-position: -641px 0;
     width: 318px;
 }
 
-.content-wrap>ul>li:nth-child(3) a:hover{
+.content-wrap>ul li:nth-child(3) a:hover{
     background-position: -641px -200px;
 }
