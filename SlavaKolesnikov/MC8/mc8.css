@@ -44,38 +44,32 @@ li a {
 #restaurant{position: absolute; top:0;
  right:0;
  width:200px;}
-  #footer1{display: block;
+  #footer1{display: inline-block;
 float: left;
 height: 200px;
-left: 82%;
-overflow-x: hidden;
-overflow-y: hidden;
-position: relative;
-width: 200px;}
-    #footer2{display: block;
+width: 200px;
+margin:5px}
+    #footer2{display: inline-block;
 float: left;
 height: 200px;
-left: 86%;
-overflow-x: hidden;
-overflow-y: hidden;
-position: relative;
-width: 200px;}
-      #footer3{display: block;
+width: 200px;
+margin:5px}
+      #footer3{display: inline-block;
 float: left;
 height: 200px;
-left: 90%;
-overflow-x: hidden;
-overflow-y: hidden;
+width: 200px
+margin:5px}
+        #footer4{display: inline-block;
+					float: left;
+width: 200px;
 position: relative;
-width: 200px}
-        #footer4{float: left;
-width: 16%;
-position: relative;
-left: 94%;
-overflow: hidden;}
-          #footer5{float: left;
-width: 16%;
-position: relative;
-left: 98%;
+
 overflow: hidden;
-width: 200px}
+margin:5px}
+          #footer5{display: inline-block;
+						float: left;
+width: 200px;
+position: relative;
+overflow: hidden;
+width: 200px
+margin:5px}
