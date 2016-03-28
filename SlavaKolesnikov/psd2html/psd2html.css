@@ -1,0 +1,167 @@
+*psd2html.css*
+html, body, h1, form, fieldset, legend, ol, li, footer {
+	margin: 0;
+	padding: 0;
+}
+container {
+  background-image: url("Layer_0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 1365px;
+  z-index: 1;
+}
+
+logo
+.Menu_Bar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 47px;
+  top: 137px;
+  width: 928px;
+  height: 55px;
+  z-index: 2;
+}
+
+.Slide_panel {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+position: absolute;
+left: 46px;
+top: 207px;
+width: 929px;
+height: 375px;
+z-index: 3;
+}
+.Slide_panel_copy {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 46px;
+  top: 599px;
+  width: 225px;
+  height: 375px;
+  z-index: 4;
+}
+.Slide_panel_copy_5 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 46px;
+  top: 990px;
+  width: 929px;
+  height: 187px;
+  z-index: 5;
+}
+.Slide_panel_copy_6 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 46px;
+  top: 1192px;
+  width: 929px;
+  height: 55px;
+  z-index: 6;
+}
+
+.Slide_panel_copy_4 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 750px;
+  top: 599px;
+  width: 225px;
+  height: 375px;
+  z-index: 16;
+}
+.Slide_panel_copy_3 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 515px;
+  top: 599px;
+  width: 226px;
+  height: 375px;
+  z-index: 15;
+}
+.Slide_panel_copy_2 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 280px;
+  top: 600px;
+  width: 226px;
+  height: 375px;
+  z-index: 14;
+}
+.Shape_2 {
+  background-color: rgb(205, 205, 205);
+  position: absolute;
+  left: 920px;
+  top: 154px;
+  width: 28px;
+  height: 22px;
+  z-index: 13;
+}
+.Shape_1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205, 205, 205);
+  background-color: rgb(255, 255, 255);
+  opacity: 0.38;
+  position: absolute;
+  left: 697px;
+  top: 146px;
+  width: 265px;
+  height: 35px;
+  z-index: 11;
+}
+
+
+}
+.Home {
+  font-size: 18px;
+  font-family: "Rockwell";
+  color: rgb(91, 91, 91);
+  line-height: 6.272;
+  text-align: left;
+  position: absolute;
+  left: 93.844px;
+  top: 108.546px;
+  z-index: 7;
+}
+.Portfolio {
+font-size: 18px;
+font-family: "Rockwell";
+color: rgb(91, 91, 91);
+line-height: 6.272;
+text-align: left;
+position: absolute;
+left: 213.844px;
+top: 108.546px;
+z-index: 8;
+}
+.Blog {
+  font-size: 18px;
+  font-family: "Rockwell";
+  color: rgb(91, 91, 91);
+  line-height: 6.272;
+  text-align: left;
+  position: absolute;
+  left: 343.844px;
+  top: 221.322px;
+  z-index: 9;
+}
+.Contact {
+  font-size: 18px;
+  font-family: "Rockwell";
+  color: rgb(91, 91, 91);
+  line-height: 6.272;
+  text-align: left;
+  position: absolute;
+  left: 444.844px;
+  top: 108.546px;
+  z-index: 10;
+}
