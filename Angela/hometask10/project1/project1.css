@@ -109,10 +109,11 @@
 			}
 				.small-img {
 					width:125px;
-					height:101px;
+					height:96px;
 					float:left;
-					margin:5px;
 				}
+				.margin1 {margin:10px 10px 0px 10px}
+				.margin2 {margin:10px 0px 0px 0px}
 			#small-div2 {width:72%}
 				h1 {text-align:left}
 				#text-welcome {height:100px}
