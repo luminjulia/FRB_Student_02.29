@@ -1,0 +1,268 @@
+body {
+	padding: 20px;
+	background: white;
+    margin: 0 auto;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+	width: 900px;
+	height: 1010px;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+header {
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	padding: 20px;
+	margin: 10px;
+} 
+
+.column {
+	-webkit-columns: 100px 3;
+	-webkit-column-gap: 50px;
+	-webkit-column-rule: 2px dotted hsla(506, 20%, 40%, 0.17);
+} 
+
+.flex-first {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 240px;
+	height: 400px;
+	padding: 20px;
+	margin: 10px;
+}
+
+.flex-first-box {
+	display: flex;
+	flex-direction: row;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 180px;
+	height: 70px;
+	padding: 20px;
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+.without-border {
+	display: flex;
+	flex-direction: row;
+	width: 190px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+
+.flex-second {
+	display: inline-flex;
+	flex-direction: column;
+    justify-content: space-between;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 540px;
+	height: 400px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.tili {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 120px;
+	height: 100px;
+	padding: 20px;
+	margin: 10px; 	
+}
+
+.trali {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 120px;
+	height: 100px;
+	padding: 20px;
+	margin: 10px; 		
+}
+
+.vali {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 120px;
+	height: 100px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.footer-a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 240px;
+	height: 250px;
+	padding: 20px;
+	margin: 10px; 
+	font-size: 0.7em;
+}
+
+.fa1 {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+
+}
+
+.footer-b {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 240px;
+	height: 250px;
+	padding: 20px;
+	margin: 10px; 
+	font-size: 0.7em;
+}
+
+.fb1 {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.fb2 {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.fb3 {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.footer-c {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 240px;
+	height: 250px;
+	padding: 20px;
+	margin: 10px; 
+	font-size: 0.7em;
+}
+
+.fc1 {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.fc2 {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.fc3 {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	background-color: hsla(506, 20%, 40%, 0.17);
+	border-radius: 8px;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px; 
+}
+
+.cat {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	margin: 0 auto;
+}
+
+
+#scrollup {
+position: fixed; 
+opacity: 0.9; 
+padding: 15px 10px 10px; 
+border-radius: 5px; 
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+width: 50px;
+height: 50px;
+right: 50px; 
+bottom: 50px;
+display: none; 
+cursor: pointer;
+}
+
+.up {
+background-size: contain;
+}
+
+.up:active {
+-webkit-filter: blur(3px); filter: blur(3px);
+}
