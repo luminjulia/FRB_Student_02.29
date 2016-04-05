@@ -1,0 +1,145 @@
+@keyframes moveRight {            
+            from {left: 70px;}            
+            to {left: 300px;}
+        }
+
+        @-moz-keyframes moveRight {
+            from {left: 70px;}
+            to {left: 300px;}
+        }
+
+        @-webkit-keyframes moveRight {
+            from {left: 70px;}
+            to {left: 300px;}
+        }
+/*@keyframes moveBox{
+		top: 50px;
+		left: 100px;
+		background-color: #565671;
+		border: 5px solid #C3C3FF;
+	}            
+    to {
+    	top: 0px;
+    	left: 140px;
+    	background-color: #C3C3FF;
+    	border: 5px solid #565671;
+    }
+    33%{top: 100px;
+    	left: 100px;
+    	background-color: #737397;
+    	border: 5px solid #A5A5D8;
+    }
+    66%{top: 100px;
+    	left: 140px;
+    	background-color: #A5A5D8;
+    	border: 5px solid #737397;
+    }
+} 		
+@-moz-keyframes moveBox{
+		top: 50px;
+		left: 100px;
+		background-color: #565671;
+		border: 5px solid #C3C3FF;
+	}            
+    to {
+    	top: 0px;
+    	left: 140px;
+    	background-color: #C3C3FF;
+    	border: 5px solid #565671;
+    }
+    33%{top: 100px;
+    	left: 100px;
+    	background-color: #737397;
+    	border: 5px solid #A5A5D8;
+    }
+    66%{top: 100px;
+    	left: 140px;
+    	background-color: #A5A5D8;
+    	border: 5px solid #737397;
+    }
+} 		*/
+@-webkit-keyframes moveBox{
+	from {
+		top: 0px;
+		left: 100px;
+		background-color: #565671;
+		border: 5px solid #C3C3FF;
+	}            
+    to {
+    	top: 0px;
+    	left: 140px;
+    	background-color: #C3C3FF;
+    	border: 5px solid #565671;
+    }
+    33%{top: 100px;
+    	left: 100px;
+    	background-color: #737397;
+    	border: 5px solid #A5A5D8;
+    }
+    66%{top: 100px;
+    	left: 140px;
+    	background-color: #A5A5D8;
+    	border: 5px solid #737397;
+    }
+} 			
+section{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	margin-left: 50px;
+}
+button{
+	width: 70px;
+	height: 30px;
+	background-color: #FEF2E4;
+	border:3px solid #E7DCCF;
+	border-radius: 5px;
+	float: left;
+	margin-top: 10px;
+	-webkit-transition: width 0,7s;
+    -moz-transition: width 0,7s;
+    -o-transition: width 0,7s;
+    transition: width 0,7s;
+}
+div{
+	width: 50px;
+	height: 50px;
+	background-color: #E7DCCF;
+	border:3px solid #EDA529;
+	border-radius: 50px;
+	position: absolute;
+	left: 100px;
+}
+.rect~div{	
+	background-color: #565671;
+	border: 5px solid #C3C3FF;
+	border-radius: 5px;	
+}
+.circle:hover{
+	width: 80px;
+	cursor:pointer;
+}
+.rect:hover{
+	background-color: #C3C3FF;
+	border: 3px solid #565671;
+	cursor:pointer;
+}
+.circle:hover~div{
+	-moz-animation: moveRight 3s ease-out;
+    -webkit-animation: moveRight 3s ease-out;
+    animation: moveRight 3s ease-out;
+    background-color: #EDA529;
+	border:3px solid #E7DCCF; 
+}
+.rect:hover~div{
+	-moz-animation: moveBox 5s;
+    -webkit-animation: moveBox 5s;
+    animation: moveBox 5s;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/*ПРИ ПОЛНОМ КОМПЛЕКТЕ КРОССБРАУЗЕРНОСТИ moveBox ПЕРЕСТАЕТ СРАБАТЫВАТЬ В ХРОМЕ
+ а почему?
+ В moveRight НЕ СРАБОТАЛ alternate */
