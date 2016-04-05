@@ -86,8 +86,7 @@ section{
 	position: relative;
 	width: 300px;
 	height: 100px;
-	line-height: 100px;
-	margin-left: 50px;
+ 	margin-left: 50px;
 }
 button{
 	width: 70px;
