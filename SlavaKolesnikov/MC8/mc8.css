@@ -1,0 +1,75 @@
+*mc8.css*
+html, body, h1, form, fieldset, legend, ol, li, footer {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #ffffff;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+#hnc { width: 100%; background-image:url("bg-turq.jpg") }
+#content { background-image: url("home-restaurant-a.png");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  height: 400px;
+}
+#footer {background-image: url("bg-footer.jpg");
+  height: 400px; background-repeat:auto;}
+#navbar {position: absolute; top:0; right:0}
+#header { position: relative; height: 73px}
+#subcontent{background-image: url("bg-footer.jpg");
+  height: 400px;}
+#store{position: absolute; top:0;right:0;width:200px;}
+#aboutus{position: absolute; top:0;left:0;width:200px;}
+#restaurant{position: absolute; top:0;
+ right:0;
+ width:200px;}
+  #footer1{display: inline-block;
+float: left;
+height: 200px;
+width: 200px;
+margin:5px}
+    #footer2{display: inline-block;
+float: left;
+height: 200px;
+width: 200px;
+margin:5px}
+      #footer3{display: inline-block;
+float: left;
+height: 200px;
+width: 200px
+margin:5px}
+        #footer4{display: inline-block;
+					float: left;
+width: 200px;
+position: relative;
+
+overflow: hidden;
+margin:5px}
+          #footer5{display: inline-block;
+						float: left;
+width: 200px;
+position: relative;
+overflow: hidden;
+width: 200px
+margin:5px}

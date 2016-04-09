@@ -8,7 +8,8 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: 20px;
 }
-form#payment {
+form#payment {counter-reset: fieldsets;
+
 	background: #9cbc2c;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;

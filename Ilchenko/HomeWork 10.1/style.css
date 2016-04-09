@@ -1,0 +1,129 @@
+p{
+	 text-align: justify;
+	 margin: 5px;
+}
+
+
+header {
+    width: 960px;
+    height: 1100px;
+    margin: auto;
+    display: inline-flex;
+    border: solid;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main {
+    width: 943px;
+    height: 186px;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.imager{
+    width: 257px;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.main1 {
+    width: 325px;
+    height: 445px;
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    margin: 5px;
+	justify-content: space-between;
+}
+.block{
+    width: 293px;
+    height: 116px;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    margin: 5px;
+	
+}
+
+
+.main2 {
+    width: 544px;
+    height: 445px;
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.mainmin1{
+	width: 250px;
+    height: 358px;
+    display: flex;
+    border: solid;
+    flex-direction: column;
+	justify-content: center;
+    margin: 5px;
+}
+.mainmin2{
+    width: 250px;
+    height: 358px;
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+.mainmin3{
+	width: 250px;
+    height: 358px;
+    display: flex;
+    border: solid;
+    flex-direction: column-reverse;
+	justify-content: space-between;
+    margin: 5px;
+}
+
+.min1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    margin: 5px;
+    align-self: center;
+}
+
+.min21{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    margin: 5px;
+    align-self: flex-start;
+}
+.min22{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    margin: 5px;
+    align-self: flex-start;
+}
+.min23{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    margin: 5px;
+    align-self: flex-end;
+}

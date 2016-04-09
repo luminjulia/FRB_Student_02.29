@@ -1,0 +1,22 @@
+*{margin: auto;}
+.container{		
+	width: 1100px;
+	height: 525px;	
+	padding: 10px;	
+	background-color: #9A899D;		
+}
+.picture{	
+	float: left;
+	margin: 0px 20px;
+}
+.picture:before, .picture:after{
+	content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero delectus asperiores nostrum consectetur, suscipit distinctio quae quo animi numquam obcaecati, error repellendus, sit fuga qui earum. Labore, esse, consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero delectus asperiores nostrum consectetur, suscipit distinctio quae quo animi numquam obcaecati, error repellendus, sit fuga qui earum. Labore, esse, consectetur!";
+	width: 200px;	
+	float: left;
+	font-size: 20px;	
+	text-align: left;
+}
+.picture:after{
+	float: right;
+	text-align: right;
+}
