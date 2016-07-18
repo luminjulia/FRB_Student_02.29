@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var alcohol = prompt ("Какой алкоголь в рецепте МОХИТО?", "джин, водка, ром, абсент, вермут");
+    switch (alcohol) {
+        case 'ром':
+            var rum = prompt ("Какой именно ром black or white?", "black or white");
+
+            switch  (rum) {
+                case 'white':
+                    alert("Вы знаток!");
+                    break;
+                case 'black':
+                    alert("Не он!");
+                    break;
+            };
+            break;
+
+        case 'джин':
+            alert("Не-а!");
+            break;
+        case 'водка':
+            alert("Не в этом напитке!");
+            break;
+        case 'абсент':
+            alert("Слишком крепкий!");
+            break;
+        case 'вермут':
+            alert("Слишком слабый!");
+            break;
+        case '':
+            alert("ВЫ Трезвенник?");
+            break;
+        default :
+            alert("Пейте безалкогольный МОХИТО");
+    }
+
+
+</script>
+
+</body>
+</html>
